@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: 6ae5f19bf8f8f4452acc018fc79a2690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4365839330103183242
+    second: cloridano_0
+  - first:
+      213: -6905735633632005731
+    second: cloridano_1
+  - first:
+      213: 5540354417966538306
+    second: cloridano_2
+  - first:
+      213: 7318461026892764087
+    second: cloridano_4
+  - first:
+      213: 9219280057711738214
+    second: cloridano_7
+  - first:
+      213: 7003147124463315742
+    second: cloridano_8
+  - first:
+      213: 8145600750062034560
+    second: cloridano_9
+  - first:
+      213: 731876307110191626
+    second: cloridano_10
+  - first:
+      213: 1322459070004926271
+    second: cloridano_11
+  - first:
+      213: -7101061703372285860
+    second: cloridano_12
+  - first:
+      213: 2754447016867695388
+    second: cloridano_14
+  - first:
+      213: 685966324256075109
+    second: cloridano_15
+  - first:
+      213: -6076369220105038114
+    second: cloridano_16
+  - first:
+      213: -6162477274010878857
+    second: cloridano_17
+  - first:
+      213: -9086033400076252588
+    second: cloridano_18
+  - first:
+      213: -1684414485803213972
+    second: cloridano_19
+  - first:
+      213: 3372966351132787292
+    second: cloridano_20
+  - first:
+      213: 3599163395223285921
+    second: cloridano_21
+  - first:
+      213: -296015074112728395
+    second: cloridano_22
+  - first:
+      213: 4236248293328521945
+    second: cloridano_23
+  - first:
+      213: 1291427643216743304
+    second: cloridano_24
+  - first:
+      213: -233558256518087267
+    second: cloridano_25
+  - first:
+      213: 5853868399184674088
+    second: cloridano_26
+  - first:
+      213: -4002744850974516479
+    second: cloridano_27
+  - first:
+      213: -5443094125271694382
+    second: cloridano_28
+  - first:
+      213: 5066447447335257809
+    second: cloridano_29
+  - first:
+      213: 2747373809012700623
+    second: cloridano_30
+  - first:
+      213: -4391470489002268482
+    second: cloridano_31
+  - first:
+      213: 7264230172351459808
+    second: cloridano_32
+  - first:
+      213: 5955435654013645339
+    second: cloridano_33
+  - first:
+      213: 1202826841509273416
+    second: cloridano_34
+  - first:
+      213: 2157453554123092574
+    second: cloridano_35
+  - first:
+      213: -3528025459077569735
+    second: cloridano_36
+  - first:
+      213: -4789363868270651201
+    second: cloridano_37
+  - first:
+      213: 1980750042038785145
+    second: cloridano_38
+  - first:
+      213: 8557917095382464399
+    second: cloridano_39
+  - first:
+      213: 6635899165618121214
+    second: cloridano_40
+  - first:
+      213: -1031108186957240478
+    second: cloridano_41
+  - first:
+      213: -2677753297719335005
+    second: cloridano_42
+  - first:
+      213: 4493892779632617678
+    second: cloridano_43
+  - first:
+      213: 5952550483509967950
+    second: cloridano_44
+  - first:
+      213: 7867542943097525
+    second: cloridano_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cloridano_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 882
+        width: 98
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67835cea24c6963c0800000000000000
+      internalID: -4365839330103183242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 886
+        width: 80
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d917b948706e920a0800000000000000
+      internalID: -6905735633632005731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 879
+        width: 98
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e59a43dfa43ec40800000000000000
+      internalID: 5540354417966538306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_4
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 888
+        width: 79
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3db727785609560800000000000000
+      internalID: 7318461026892764087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_7
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 881
+        width: 79
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d30ccdd5671ff70800000000000000
+      internalID: 9219280057711738214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_8
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 875
+        width: 87
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b2f67943d203160800000000000000
+      internalID: 7003147124463315742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_9
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 878
+        width: 65
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e5a9599bcfa0170800000000000000
+      internalID: 8145600750062034560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_10
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 882
+        width: 113
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02e3d8af95282a00800000000000000
+      internalID: 731876307110191626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_11
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 875
+        width: 65
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3713a974815a5210800000000000000
+      internalID: 1322459070004926271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_12
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 881
+        width: 128
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c585d5af006f37d90800000000000000
+      internalID: -7101061703372285860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 598
+        width: 82
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b8809d7f2c93620800000000000000
+      internalID: 2754447016867695388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 603
+        width: 71
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56de92dccba058900800000000000000
+      internalID: 685966324256075109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 598
+        width: 72
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6958763666caba0800000000000000
+      internalID: -6076369220105038114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_17
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 601
+        width: 76
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cf92ac19b7a7aa0800000000000000
+      internalID: -6162477274010878857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_18
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 608
+        width: 77
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 1, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ace1333cce7e180800000000000000
+      internalID: -9086033400076252588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_19
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 602
+        width: 128
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b5d2713f1cf98e0800000000000000
+      internalID: -1684414485803213972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_20
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 596
+        width: 65
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c528d9e860f2fce20800000000000000
+      internalID: 3372966351132787292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_21
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 603
+        width: 113
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a07fdce90cc2f130800000000000000
+      internalID: 3599163395223285921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_22
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 599
+        width: 65
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b29953cbd754ebf0800000000000000
+      internalID: -296015074112728395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_23
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 600
+        width: 84
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da8330d06d2aca30800000000000000
+      internalID: 4236248293328521945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 309
+        width: 65
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bcd0769921ce110800000000000000
+      internalID: 1291427643216743304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_25
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 311
+        width: 55
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d31edc00c32ccf0800000000000000
+      internalID: -233558256518087267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 312
+        width: 105
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d794f3b4e1d3150800000000000000
+      internalID: 5853868399184674088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_27
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 313
+        width: 59
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bd327f3c46378c0800000000000000
+      internalID: -4002744850974516479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_28
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 310
+        width: 105
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d34a285bbe3674b0800000000000000
+      internalID: -5443094125271694382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_29
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 309
+        width: 69
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d64a933c13af4640800000000000000
+      internalID: 5066447447335257809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_30
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 532
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5f96f4ce1a02620800000000000000
+      internalID: 2747373809012700623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_31
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 309
+        width: 64
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8a8657bdc5e03c0800000000000000
+      internalID: -4391470489002268482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_32
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 309
+        width: 86
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1feadaadabfc460800000000000000
+      internalID: 7264230172351459808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_33
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 307
+        width: 86
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12fd209c25f5a250800000000000000
+      internalID: 5955435654013645339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_34
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 310
+        width: 86
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f1776b3ac41b010800000000000000
+      internalID: 1202826841509273416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 105
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5239e8a390d0fd10800000000000000
+      internalID: 2157453554123092574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_36
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 20
+        width: 53
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933a529898fe90fc0800000000000000
+      internalID: -3528025459077569735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_37
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 19
+        width: 105
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb813abdfe2c88db0800000000000000
+      internalID: -4789363868270651201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_38
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 18
+        width: 55
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974df843ba90d7b10800000000000000
+      internalID: 1980750042038785145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_39
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 16
+        width: 65
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87b387a144d3c670800000000000000
+      internalID: 8557917095382464399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_40
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 19
+        width: 86
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9aaf3f123771c50800000000000000
+      internalID: 6635899165618121214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_41
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 16
+        width: 86
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267aa672194c0b1f0800000000000000
+      internalID: -1031108186957240478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_42
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 18
+        width: 86
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7ee452095b6dad0800000000000000
+      internalID: -2677753297719335005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_43
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 18
+        width: 93
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8e1b46ca38d5e30800000000000000
+      internalID: 4493892779632617678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_44
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 241
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf0357025bb9250800000000000000
+      internalID: 5952550483509967950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cloridano_45
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 18
+        width: 69
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2e0661d73fb1000800000000000000
+      internalID: 7867542943097525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

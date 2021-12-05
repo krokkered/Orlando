@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: 55886b64ee91f887e948c4cc5a63cd4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4859487991852006438
+    second: medoro_0
+  - first:
+      213: 6527702988697430830
+    second: medoro_1
+  - first:
+      213: -7577490479657477840
+    second: medoro_2
+  - first:
+      213: -3778959282696452081
+    second: medoro_3
+  - first:
+      213: 3993424277883138739
+    second: medoro_4
+  - first:
+      213: 4761461169885795309
+    second: medoro_5
+  - first:
+      213: -5582765656962536509
+    second: medoro_6
+  - first:
+      213: 3570490103271125179
+    second: medoro_7
+  - first:
+      213: -7363465616408128225
+    second: medoro_8
+  - first:
+      213: -7017867713373316340
+    second: medoro_9
+  - first:
+      213: 2391104776312587841
+    second: medoro_10
+  - first:
+      213: -1008791165405075354
+    second: medoro_11
+  - first:
+      213: -7696220031927124900
+    second: medoro_12
+  - first:
+      213: -9173235927007638010
+    second: medoro_13
+  - first:
+      213: -4697401501601534313
+    second: medoro_14
+  - first:
+      213: -7618750915945065245
+    second: medoro_15
+  - first:
+      213: 5036080806716104270
+    second: medoro_16
+  - first:
+      213: -2312511077438001487
+    second: medoro_17
+  - first:
+      213: 8421316756329852295
+    second: medoro_18
+  - first:
+      213: -2276333966848091264
+    second: medoro_19
+  - first:
+      213: -3808823282974336750
+    second: medoro_20
+  - first:
+      213: -5856978941517733323
+    second: medoro_21
+  - first:
+      213: -8796900301489962754
+    second: medoro_22
+  - first:
+      213: -423245842925462240
+    second: medoro_23
+  - first:
+      213: -5955481103964387381
+    second: medoro_24
+  - first:
+      213: 8414474007193519968
+    second: medoro_25
+  - first:
+      213: 823333746405311248
+    second: medoro_26
+  - first:
+      213: -2635829794282087777
+    second: medoro_27
+  - first:
+      213: -6878034038167427238
+    second: medoro_28
+  - first:
+      213: 6643619886823952077
+    second: medoro_29
+  - first:
+      213: -7276833458603123052
+    second: medoro_30
+  - first:
+      213: -2747863507604756988
+    second: medoro_31
+  - first:
+      213: -4025705993192465501
+    second: medoro_32
+  - first:
+      213: -4163623918864541360
+    second: medoro_33
+  - first:
+      213: 101149255715939816
+    second: medoro_34
+  - first:
+      213: -1815975186649794382
+    second: medoro_35
+  - first:
+      213: 7338163278517558688
+    second: medoro_36
+  - first:
+      213: 4100382494232901125
+    second: medoro_37
+  - first:
+      213: 8074823447510224731
+    second: medoro_38
+  - first:
+      213: -111732704135745033
+    second: medoro_39
+  - first:
+      213: -5467898301042008144
+    second: medoro_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: medoro_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 898
+        width: 98
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c7d98f49e507340800000000000000
+      internalID: 4859487991852006438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 922
+        width: 82
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2be090784f079a50800000000000000
+      internalID: 6527702988697430830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 915
+        width: 79
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0399c175e8857d690800000000000000
+      internalID: -7577490479657477840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 924
+        width: 82
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08863edd807e8bc0800000000000000
+      internalID: -3778959282696452081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 917
+        width: 79
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b235a0093e7b6730800000000000000
+      internalID: 3993424277883138739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_5
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 924
+        width: 74
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3dbdae4bb141240800000000000000
+      internalID: 4761461169885795309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_6
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 927
+        width: 65
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb6f78b6380682b0800000000000000
+      internalID: -5582765656962536509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_7
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 931
+        width: 113
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0f587e4ddec8130800000000000000
+      internalID: 3570490103271125179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_8
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 924
+        width: 65
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15d0320907bfc990800000000000000
+      internalID: -7363465616408128225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_9
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 930
+        width: 128
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b53b73f768b9e90800000000000000
+      internalID: -7017867713373316340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_10
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 908
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460adc1029ee2120800000000000000
+      internalID: 2391104776312587841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 618
+        width: 79
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686a75a7cd0002f0800000000000000
+      internalID: -1008791165405075354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_12
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 623
+        width: 72
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cfcb348a8813590800000000000000
+      internalID: -7696220031927124900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_13
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 618
+        width: 72
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ecbd9b68e12b080800000000000000
+      internalID: -9173235927007638010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_14
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 621
+        width: 76
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e67a1e83a7fceb0800000000000000
+      internalID: -4697401501601534313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_15
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 619
+        width: 88
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e499e66862c44690800000000000000
+      internalID: -7618750915945065245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_16
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 625
+        width: 128
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed978bfc0c3e540800000000000000
+      internalID: 5036080806716104270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_17
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 619
+        width: 65
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bee6226d6f48efd0800000000000000
+      internalID: -2312511077438001487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_18
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 626
+        width: 113
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78de51ac8f68ed470800000000000000
+      internalID: 8421316756329852295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_19
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 622
+        width: 65
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b1dd35156d860e0800000000000000
+      internalID: -2276333966848091264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_20
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 619
+        width: 95
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219d3167767542bc0800000000000000
+      internalID: -3808823282974336750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 331
+        width: 45
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53264ed2fa4d7bea0800000000000000
+      internalID: -5856978941517733323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 333
+        width: 55
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef00a25a8c12be580800000000000000
+      internalID: -8796900301489962754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 334
+        width: 105
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d54c7f524502af0800000000000000
+      internalID: -423245842925462240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_24
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 335
+        width: 67
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7c6ab4d71e95da0800000000000000
+      internalID: -5955481103964387381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_25
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 332
+        width: 105
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067078a178736c470800000000000000
+      internalID: 8414474007193519968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_26
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 332
+        width: 69
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013841e1ea11d6b00800000000000000
+      internalID: 823333746405311248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_27
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 332
+        width: 65
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9adc6f64c6ab6bd0800000000000000
+      internalID: -2635829794282087777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_28
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 332
+        width: 103
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a572cf1db705c80a0800000000000000
+      internalID: -6878034038167427238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_29
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 332
+        width: 86
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceccd07611e23c50800000000000000
+      internalID: 6643619886823952077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_30
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 333
+        width: 86
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e9842168e730b90800000000000000
+      internalID: -7276833458603123052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 33
+        width: 105
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406a5f9d2b0add9d0800000000000000
+      internalID: -2747863507604756988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_32
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 36
+        width: 67
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab1a917ab1d128c0800000000000000
+      internalID: -4025705993192465501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_33
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 35
+        width: 105
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05952c90b16d736c0800000000000000
+      internalID: -4163623918864541360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_34
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 34
+        width: 55
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e56e3056ba576100800000000000000
+      internalID: 101149255715939816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_35
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 32
+        width: 45
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8b0de603c5cc6e0800000000000000
+      internalID: -1815975186649794382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_36
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 30
+        width: 86
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0addadf5f9466d560800000000000000
+      internalID: 7338163278517558688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_37
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 29
+        width: 86
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5067bfb572c77e830800000000000000
+      internalID: 4100382494232901125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_38
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 29
+        width: 103
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f87dca4298f0070800000000000000
+      internalID: 8074823447510224731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_39
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 29
+        width: 65
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1f13492bb037ef0800000000000000
+      internalID: -111732704135745033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medoro_40
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 29
+        width: 69
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfdd62277f1e14b0800000000000000
+      internalID: -5467898301042008144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

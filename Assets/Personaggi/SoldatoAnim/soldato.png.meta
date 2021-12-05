@@ -1,0 +1,1104 @@
+fileFormatVersion: 2
+guid: c634570a967c8457eb158c0bb28c745d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5972103180329459941
+    second: soldato_0
+  - first:
+      213: 7949936955395240853
+    second: soldato_1
+  - first:
+      213: -4450562148911342860
+    second: soldato_2
+  - first:
+      213: 5713287318199003864
+    second: soldato_3
+  - first:
+      213: -8777282449806208813
+    second: soldato_4
+  - first:
+      213: 4284890706483886472
+    second: soldato_5
+  - first:
+      213: -4955521027479657981
+    second: soldato_6
+  - first:
+      213: 4608017402369552658
+    second: soldato_8
+  - first:
+      213: 3194865541523165005
+    second: soldato_9
+  - first:
+      213: 5676770968059663137
+    second: soldato_10
+  - first:
+      213: 6502913614242537468
+    second: soldato_15
+  - first:
+      213: 7723796568112704548
+    second: soldato_16
+  - first:
+      213: -2800550975450406746
+    second: soldato_17
+  - first:
+      213: 8350880671365498208
+    second: soldato_18
+  - first:
+      213: 3636579753035018360
+    second: soldato_19
+  - first:
+      213: -487991756001384131
+    second: soldato_20
+  - first:
+      213: 6802837075926439284
+    second: soldato_21
+  - first:
+      213: 3283626367212558140
+    second: soldato_22
+  - first:
+      213: -1113706364793131296
+    second: soldato_24
+  - first:
+      213: -4373403119129885541
+    second: soldato_25
+  - first:
+      213: 1081652566477233794
+    second: soldato_27
+  - first:
+      213: 1729271658415215450
+    second: soldato_28
+  - first:
+      213: 4165581727966381018
+    second: soldato_29
+  - first:
+      213: -8877830924365681370
+    second: soldato_30
+  - first:
+      213: 8636378187204408329
+    second: soldato_31
+  - first:
+      213: 5191413400299294374
+    second: soldato_32
+  - first:
+      213: 2865035542532906071
+    second: soldato_33
+  - first:
+      213: -8852912498399160113
+    second: soldato_36
+  - first:
+      213: 7879130426144668352
+    second: soldato_38
+  - first:
+      213: -1187518742781023563
+    second: soldato_39
+  - first:
+      213: 5140889300455596046
+    second: soldato_40
+  - first:
+      213: -7805046142906261989
+    second: soldato_41
+  - first:
+      213: 3602542961355177375
+    second: soldato_42
+  - first:
+      213: 8477548185707256229
+    second: soldato_43
+  - first:
+      213: 1638940194801765734
+    second: soldato_44
+  - first:
+      213: -8681183431837670073
+    second: soldato_45
+  - first:
+      213: 968991171579269821
+    second: soldato_47
+  - first:
+      213: 1930403134362302266
+    second: soldato_48
+  - first:
+      213: 7014168262639599361
+    second: soldato_49
+  - first:
+      213: 6791838145138532572
+    second: soldato_50
+  - first:
+      213: 7311957745278849303
+    second: soldato_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soldato_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 877
+        width: 79
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f5b7e8cc3de1da0800000000000000
+      internalID: -5972103180329459941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 892
+        width: 81
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59375155a89d35e60800000000000000
+      internalID: 7949936955395240853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 882
+        width: 80
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa175f3e4d6c32c0800000000000000
+      internalID: -4450562148911342860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 896
+        width: 79
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8daeefcab8ca94f40800000000000000
+      internalID: 5713287318199003864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_4
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 879
+        width: 74
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0d70ead14d03680800000000000000
+      internalID: -8777282449806208813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 882
+        width: 70
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889385d256df67b30800000000000000
+      internalID: 4284890706483886472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_6
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 885
+        width: 66
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302a81881e37a3bb0800000000000000
+      internalID: -4955521027479657981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_8
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 889
+        width: 113
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2113e03c967f2ff30800000000000000
+      internalID: 4608017402369552658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_9
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 882
+        width: 74
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fcf9b6841765c20800000000000000
+      internalID: 3194865541523165005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_10
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 888
+        width: 129
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123527e5e11f7ce40800000000000000
+      internalID: 5676770968059663137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 583
+        width: 84
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff5afd6a7dfe3a50800000000000000
+      internalID: 6502913614242537468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 587
+        width: 75
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c2db76e00703b60800000000000000
+      internalID: 7723796568112704548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_17
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 581
+        width: 96
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a7ecc9b17229d0800000000000000
+      internalID: -2800550975450406746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_18
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 585
+        width: 76
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658a6ac9b944e370800000000000000
+      internalID: 8350880671365498208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_19
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 581
+        width: 88
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870b709940ab77230800000000000000
+      internalID: 3636579753035018360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_20
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 582
+        width: 129
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39e73a551e4a39f0800000000000000
+      internalID: -487991756001384131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_21
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 576
+        width: 74
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475d37f0748886e50800000000000000
+      internalID: 6802837075926439284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_22
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 583
+        width: 113
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c379fc898c8c19d20800000000000000
+      internalID: 3283626367212558140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_24
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 579
+        width: 66
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eee96e36f15b80f0800000000000000
+      internalID: -1113706364793131296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_25
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 576
+        width: 70
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948da0d80d8e43c0800000000000000
+      internalID: -4373403119129885541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 536
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed343474dc20f00800000000000000
+      internalID: 1081652566477233794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 306
+        width: 65
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a535df7496b9ff710800000000000000
+      internalID: 1729271658415215450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_29
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 308
+        width: 60
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad34b4ae28e1fc930800000000000000
+      internalID: 4165581727966381018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_30
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 308
+        width: 109
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62da431afcb9bc480800000000000000
+      internalID: -8877830924365681370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_31
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 310
+        width: 71
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904304a24349ad770800000000000000
+      internalID: 8636378187204408329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_32
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 307
+        width: 109
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeca077bfa9b0840800000000000000
+      internalID: 5191413400299294374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_33
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 304
+        width: 79
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cda8575a6a2c720800000000000000
+      internalID: 2865035542532906071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_36
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 304
+        width: 64
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc85d49ccf2242580800000000000000
+      internalID: -8852912498399160113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_38
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 304
+        width: 86
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca335d806b485d60800000000000000
+      internalID: 7879130426144668352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_39
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 304
+        width: 86
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba2b64cef5158fe0800000000000000
+      internalID: -1187518742781023563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_40
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 305
+        width: 108
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e002347c49b185740800000000000000
+      internalID: 5140889300455596046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_41
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 109
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e1a8cc2e7eea390800000000000000
+      internalID: -7805046142906261989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_42
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 31
+        width: 71
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db8ab7cbdcef130800000000000000
+      internalID: 3602542961355177375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_43
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 29
+        width: 109
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9965fa82d46a570800000000000000
+      internalID: 8477548185707256229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_44
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 29
+        width: 60
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dc4477c6faeb610800000000000000
+      internalID: 1638940194801765734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_45
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 27
+        width: 65
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7452f43e9ad368780800000000000000
+      internalID: -8681183431837670073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_47
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 18
+        width: 87
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2d87c265c827d00800000000000000
+      internalID: 968991171579269821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_48
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 16
+        width: 86
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3737f84c6b2aca10800000000000000
+      internalID: 1930403134362302266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_49
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 16
+        width: 86
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb3794fd4575160800000000000000
+      internalID: 7014168262639599361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_50
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 16
+        width: 64
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd02eeceec4714e50800000000000000
+      internalID: 6791838145138532572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldato_53
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 16
+        width: 79
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711130434da497560800000000000000
+      internalID: 7311957745278849303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
