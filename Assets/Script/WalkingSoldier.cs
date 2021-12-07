@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WalkingSoldier : MonoBehaviour
+public class WalkingSoldier : Soldier
 {
 
 public Animator animator;
@@ -12,25 +12,36 @@ public Transform EndingPoint;
 private Transform pointToReach;
 public float moveSpeed=1;
 
-public GameObject AwareField;
-public GameObject UnawareField;
+private GameObject AwareField;
+private GameObject UnawareField;
 
 
     // Start is called before the first frame update
-    void Start()
+    new void Start()
     {
+    base.Start();
+
     transform.position = StartingPoint.transform.position;
     pointToReach=EndingPoint;
     AwareField=gameObject.transform.Find("AwareField").gameObject;
+    UnawareField=gameObject.transform.Find("UnawareField").gameObject;
+
+    soldierState=State.Killable;
     }
 
     // Update is called once per frame
-    void Update()
+    new void Update()
     {
-        Move();
-        animate();
+        base.Update();
+        if (soldierState != State.Dead)
+        {
+            Move();
+            animate();
 
-        placeWarningSpace();
+            placeFields(AwareField);
+            placeFields(UnawareField);
+        }
+
     }
 
 
@@ -70,9 +81,9 @@ public GameObject UnawareField;
 
 
 
-    void placeWarningSpace(){
+    void placeFields(GameObject field){
         float fixeddistance=0.7f;
-        AwareField.transform.localPosition =new Vector3(fixeddistance *Mathf.Sign(movement.x),fixeddistance*Mathf.Sign(movement.y),AwareField.transform.position.z);
+        field.transform.localPosition =new Vector3(fixeddistance *Mathf.Sign(movement.x),fixeddistance*Mathf.Sign(movement.y),field.transform.position.z);
         float rotationAmount=0;
 
         if (Mathf.Sign(movement.x)==1  && Mathf.Sign(movement.y)==1 ){
@@ -93,6 +104,6 @@ public GameObject UnawareField;
             rotationAmount=-135;
         }
         //TODO add cases when movement.x ==0 and y positive, for horizontal and vertical positions
-        AwareField.transform.eulerAngles=new Vector3(0,0,rotationAmount);
+        field.transform.eulerAngles=new Vector3(0,0,rotationAmount);
     }
 }

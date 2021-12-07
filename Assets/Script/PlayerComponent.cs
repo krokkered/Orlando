@@ -43,27 +43,20 @@ Vector2 movement;
         movement.x=Input.GetAxisRaw("Horizontal");
         movement.y=Input.GetAxisRaw("Vertical");
 
-        animate();
         }
 
-    
     else{
 
         autonomousBehaviour();
-        animate();
 
     }
+    animate();
 
         }
 void FixedUpdate() {
-    if (isControlled){
-        rb.MovePosition(rb.position+movement*moveSpeed* Time.fixedDeltaTime);
-    }
-
-    else{
 
         rb.MovePosition(rb.position+movement*moveSpeed* Time.fixedDeltaTime);
-    }
+    
 }
 
 void ToggleControlled(){
