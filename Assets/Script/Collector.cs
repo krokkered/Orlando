@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class Collector : MonoBehaviour
 {
-    private int CollectedItems=0 ; //mettere private
-
+    protected int CollectedItems=0 ; 
     // Start is called before the first frame update
     void Start()
     {
-        CollectedItems=0;
     }
 
     // Update is called once per frame
@@ -19,7 +17,12 @@ public class Collector : MonoBehaviour
     }
 
 
-    public void addItem(){
+    public virtual void addItem(){
+        print("collezione normale");
         CollectedItems+=1;
+    }
+
+    public int ItemsNumber(){
+        return CollectedItems;
     }
 }

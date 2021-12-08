@@ -7,7 +7,7 @@
   
   
  [RequireComponent(typeof(Selectable))]
- public class DeselectButton : MonoBehaviour, IPointerEnterHandler, IDeselectHandler
+ public class FixHighlight : MonoBehaviour, IPointerEnterHandler, IDeselectHandler
  {
      public void OnPointerEnter(PointerEventData eventData)
      {
