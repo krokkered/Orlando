@@ -2600,7 +2600,7 @@ GameObject:
   - component: {fileID: 1726024444}
   - component: {fileID: 1726024445}
   m_Layer: 0
-  m_Name: Medoro
+  m_Name: Orlando
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2669,7 +2669,7 @@ Animator:
   m_GameObject: {fileID: 1726024437}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3523473fe6cdd07debcbaa25c69ad661, type: 2}
+  m_Controller: {fileID: 9100000, guid: c70e57dac9899538b827a6120245fbcf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2718,7 +2718,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4859487991852006438, guid: 55886b64ee91f887e948c4cc5a63cd4a, type: 3}
+  m_Sprite: {fileID: -244508390607437970, guid: a9306beca649da327b233f7ea67e466f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
