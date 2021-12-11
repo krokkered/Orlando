@@ -14,7 +14,8 @@ public Camera cam;
 public GameObject otherPlayer;
 FindVisibleEnemies findenemies;
 
-Vector2 movement;
+ AutonomousBehaviour ab;
+public Vector2 movement;
     // Update is called once per frame
 
 
@@ -24,6 +25,7 @@ Vector2 movement;
             moveSpeed =2.3f;
         }
         findenemies = cam.gameObject.GetComponent<FindVisibleEnemies>();
+        ab=gameObject.GetComponent<AutonomousBehaviour>();
     }
 
     void Update()
@@ -45,11 +47,6 @@ Vector2 movement;
 
         }
 
-    else{
-
-        autonomousBehaviour();
-
-    }
     animate();
 
         }
@@ -57,6 +54,10 @@ void FixedUpdate() {
 
         rb.MovePosition(rb.position+movement*moveSpeed* Time.fixedDeltaTime);
     
+    if (!isControlled){
+       // ab.autonomousMove();
+
+    }
 }
 
 void ToggleControlled(){

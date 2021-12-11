@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.h8man.2d.navmeshplus": "file:/home/mik/Documenti/unipi/GameDesign/progetto/NavMeshPlus-master",
     "com.unity.2d.animation": "5.0.8",
     "com.unity.2d.pixel-perfect": "4.0.1",
     "com.unity.2d.psdimporter": "4.1.1",
