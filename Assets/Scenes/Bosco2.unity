@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 179222398}
   - component: {fileID: 179222399}
   - component: {fileID: 179222393}
+  - component: {fileID: 179222400}
   m_Layer: 0
   m_Name: Angelica
   m_TagString: Player
@@ -270,7 +271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73920c0bda7cb7cd9a0bc33009a4722a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollectedItems: 0
 --- !u!50 &179222394
 Rigidbody2D:
   serializedVersion: 4
@@ -409,6 +409,18 @@ MonoBehaviour:
   rb: {fileID: 179222394}
   animator: {fileID: 179222395}
   cam: {fileID: 519420031}
+--- !u!114 &179222400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179222392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10fd0d738348995ebe46c2efac4e36d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &194410286
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +713,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &392358125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392358128}
+  - component: {fileID: 392358127}
+  - component: {fileID: 392358126}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &392358126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392358125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &392358127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392358125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &392358128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392358125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &502363023
 GameObject:
@@ -1096,6 +1174,107 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 758321eb6d78dcb198d74e51f60384c2, type: 3}
+--- !u!1001 &1023440545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6884816663117556684, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: 'Trova e raccogli le erbe mediche!
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816663117556685, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4732796
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8487031
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7041032
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915302, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664296915303, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Name
+      value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 6884816664358466187, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: "\nXIX\n16 \nSeguon gli Scotti ove la guida loro\nper l\u2019alta selva
+        alto disdegno mena,\npoi che lasciato ha l\u2019uno e l\u2019altro Moro,\nl\u2019un
+        morto in tutto, e l\u2019altro vivo a pena.\nGiacque gran pezzo il giovine
+        Medoro,\nspicciando il sangue da s\xED larga vena,\nche di sua vita al fin
+        saria venuto,\nse non sopravenia chi gli di\xE8 aiuto.\n\n17\nGli sopravenne
+        a caso una donzella,\navolta in pastorale et umil veste,\nma di real presenzia
+        e in viso bella,\nd\u2019alte maniere e accortamente oneste.\nTanto \xE8
+        ch\u2019io non ne dissi pi\xFA novella,\nch\u2019a pena riconoscer la dovreste:\nquesta,
+        se non sapete, Angelica era,\ndel gran Can del Catai la figlia altiera.\n\n18\nPoi
+        che \u2019l suo annello Angelica riebbe,\ndi che Brunel l\u2019avea tenuta
+        priva,\nin tanto fasto, in tanto orgoglio crebbe,\nch\u2019esser parea di
+        tutto \u2019l mondo schiva.\nSe ne va sola, e non si degnerebbe\ncompagno
+        aver qual pi\xFA famoso viva:\nsi sdegna a rimembrar che gi\xE1 suo amante\nabbia
+        Orlando nomato, o Sacripante.\n\n19\nE sopra ogn\u2019altro error via pi\xFA
+        pentita\nera del ben che gi\xE1 a Rinaldo volse,\ntroppo parendole essersi
+        avilita,\nch\u2019a riguardar s\xED basso gli occhi volse.\nTant\u2019arroganzia
+        avendo Amor sentita,\npi\xFA lungamente comportar non volse:\ndove giacea
+        Medor, si pose al varco,\ne l\u2019aspett\xF2, posto lo strale all\u2019arco.\n\n\n\n20\nQuando
+        Angelica vide il giovinetto\nlanguir ferito, assai vicino a morte,\nche del
+        suo re che giacea senza tetto,\npi\xFA che del proprio mal si dolea forte;\ninsolita
+        pietade in mezzo al petto\nsi senti entrar per disusate porte,\nche le fe\u2019
+        il duro cor tenero e molle,\ne pi\xFA, quando il suo caso egli narrolle,\n\n21\nE
+        rivocando alla memoria l\u2019arte\nch\u2019in India impar\xF2 gi\xE1 di
+        chirurgia\n(che par che questo studio in quella parte\nnobile e degno e di
+        gran laude sia;\ne senza molto rivoltar di carte,\nche \u2019l patre ai figli
+        ereditario il dia),\nsi dispose operar con succo d\u2019erbe,\nch\u2019a
+        pi\xFA matura vita lo riserbe.\n\n22\nE ricordossi che passando avea\nveduta
+        un\u2019erba in una piaggia amena;\nfosse dittamo, o fosse panacea,\no non
+        so qual, di tal effetto piena,\nche stagna il sangue, e de la piaga rea\nleva
+        ogni spasmo e perigliosa pena.\nLa trov\xF2 non lontana, e quella colta,\ndove
+        lasciato avea Medor, di\xE8 volta.\n"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
 --- !u!1 &1034630303
 GameObject:
   m_ObjectHideFlags: 0

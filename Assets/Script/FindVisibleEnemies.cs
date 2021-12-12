@@ -15,7 +15,7 @@ public class FindVisibleEnemies : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    
+
         //cam = gameObject.GetComponent<Camera>();
         //cameraBox = cam.GetComponent<BoxCollider2D>();
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
@@ -25,16 +25,19 @@ public class FindVisibleEnemies : MonoBehaviour
     void Update()
     {
         visibleEnemies.Clear();
-    foreach (GameObject enemy in enemies)
+        visibleUnwarnedEnemies.Clear();
+        
+        foreach (GameObject enemy in enemies)
         {
-            if(cameraBox.OverlapPoint(enemy.transform.position) && enemy.GetComponent<StaticSoldier>().isAlive)
+            if (cameraBox.OverlapPoint(enemy.transform.position) && enemy.GetComponent<StaticSoldier>().isAlive)
                 visibleEnemies.Add(enemy);
         }
-   
-         foreach (GameObject en in visibleEnemies){
 
-         if(!en.GetComponent<StaticSoldier>().getWarned() )  // valido solo per i soldati fermi
-            visibleUnwarnedEnemies.Add(en);
-     }
-      }
+        foreach (GameObject en in visibleEnemies)
+        {
+
+            if (!en.GetComponent<StaticSoldier>().getWarned())  // valido solo per i soldati fermi
+                visibleUnwarnedEnemies.Add(en);
+        }
+    }
 }

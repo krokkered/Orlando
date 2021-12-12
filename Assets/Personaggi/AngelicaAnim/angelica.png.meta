@@ -6,12 +6,6 @@ TextureImporter:
       213: -7629218581955724129
     second: angelica_0
   - first:
-      213: 7931072142850308759
-    second: angelica_1
-  - first:
-      213: 1472131512660277871
-    second: angelica_2
-  - first:
       213: -2726361433317268687
     second: angelica_3
   - first:
@@ -26,6 +20,15 @@ TextureImporter:
   - first:
       213: -2905645062465729608
     second: angelica_7
+  - first:
+      213: 8096029724953154672
+    second: angelica_8
+  - first:
+      213: 987441969604921067
+    second: angelica_9
+  - first:
+      213: 7239978679531636183
+    second: angelica_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,10 +133,10 @@ TextureImporter:
       name: angelica_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 91
-        width: 202
-        height: 410
+        x: 67
+        y: 38
+        width: 138
+        height: 328
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,55 +151,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: angelica_1
-      rect:
-        serializedVersion: 2
-        x: 510
-        y: 62
-        width: 155
-        height: 436
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79ab692e714d01e60800000000000000
-      internalID: 7931072142850308759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: angelica_2
-      rect:
-        serializedVersion: 2
-        x: 814
-        y: 63
-        width: 141
-        height: 435
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6a36c2afcf0e6410800000000000000
-      internalID: 1472131512660277871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: angelica_3
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 67
-        width: 163
-        height: 422
+        x: 345
+        y: 19
+        width: 102
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +175,10 @@ TextureImporter:
       name: angelica_4
       rect:
         serializedVersion: 2
-        x: 1364
-        y: 67
-        width: 163
-        height: 422
+        x: 547
+        y: 19
+        width: 93
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +196,10 @@ TextureImporter:
       name: angelica_5
       rect:
         serializedVersion: 2
-        x: 1669
-        y: 63
-        width: 141
-        height: 435
+        x: 736
+        y: 22
+        width: 108
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +217,10 @@ TextureImporter:
       name: angelica_6
       rect:
         serializedVersion: 2
-        x: 1959
-        y: 62
-        width: 155
-        height: 436
+        x: 914
+        y: 22
+        width: 108
+        height: 281
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +238,10 @@ TextureImporter:
       name: angelica_7
       rect:
         serializedVersion: 2
-        x: 2185
-        y: 44
-        width: 201
-        height: 446
+        x: 1117
+        y: 19
+        width: 93
+        height: 290
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,6 +251,69 @@ TextureImporter:
       bones: []
       spriteID: 8bbcc50e5331da7d0800000000000000
       internalID: -2905645062465729608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angelica_8
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 19
+        width: 103
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07416d6e320ea5070800000000000000
+      internalID: 8096029724953154672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angelica_9
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 6
+        width: 133
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be60d9a5d3914bd00800000000000000
+      internalID: 987441969604921067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angelica_10
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 0
+        width: 217
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d582eeff32997460800000000000000
+      internalID: 7239978679531636183
       vertices: []
       indices: 
       edges: []

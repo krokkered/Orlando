@@ -11,6 +11,7 @@ public class SinglePlayerComponent : MonoBehaviour
     public Animator animator;
     public Camera cam;
     bool isCrazy = false;
+    public bool isBent{get; set;}= false;
 
     Vector2 movement;
     // Update is called once per frame
@@ -38,7 +39,7 @@ public class SinglePlayerComponent : MonoBehaviour
     void FixedUpdate()
     {
 
-
+        if (!isBent)
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
     }
