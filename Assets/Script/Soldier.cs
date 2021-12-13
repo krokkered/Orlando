@@ -21,11 +21,14 @@ public class Soldier : MonoBehaviour
 
     protected GameObject childSword;
     protected GameObject childBlood;
+    ScoreManager scoreManager;
     // Start is called before the first frame update
     protected void Start()
     {
         childSword = gameObject.transform.Find("sword").gameObject;
         childBlood = gameObject.transform.Find("macchiadisangue").gameObject;
+
+        scoreManager=GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
 
     }
 
@@ -66,6 +69,7 @@ public class Soldier : MonoBehaviour
             childSword.SetActive(false);
             childBlood.SetActive(true);
 
+            scoreManager.IncreaseScore();
         }
 
     }

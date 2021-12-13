@@ -16,7 +16,8 @@ public class StaticSoldier : Soldier
 
             
                 soldierState=State.Killable;
-                if (otherCol.gameObject.GetComponent<PlayerComponent>().isControlled){
+                //if (otherCol.gameObject.GetComponent<PlayerComponent>().isControlled)
+                {
                 showSword();
                 } 
         }

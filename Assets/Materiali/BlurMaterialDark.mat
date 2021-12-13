@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BlurMaterial
+  m_Name: BlurMaterialDark
   m_Shader: {fileID: 4800000, guid: 14fb9b2e5b3738ab0acd988eceb6b36d, type: 3}
   m_ShaderKeywords: IS_BLUR_ALPHA_MASKED
   m_LightmapFlags: 4
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BumpAmt: 2
+    - _BumpAmt: 2.4
     - _BumpScale: 1
     - _ColorMask: 15
     - _Cutoff: 0.5
@@ -72,7 +72,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Radius: 11
-    - _Size: 2
+    - _Size: 1.6
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -85,7 +85,7 @@ Material:
     - _UseUIAlphaClip: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+    - _Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.16470589}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _OverlayColor: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 0.29803923}
   m_BuildTextureStacks: []

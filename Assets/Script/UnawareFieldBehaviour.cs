@@ -28,7 +28,7 @@ public class UnawareFieldBehaviour : MonoBehaviour
             if (soldier.getAlive())
             {    
                 soldier.setKillable();
-                if (otherCol.gameObject.GetComponent<PlayerComponent>().isControlled)
+              //  if (otherCol.gameObject.GetComponent<PlayerComponent>().isControlled)
                 {
                     soldier.showSword();
                 } 
@@ -45,7 +45,8 @@ public class UnawareFieldBehaviour : MonoBehaviour
         if (rbody!= null  && rbody.tag  == "Player"){
 
             if (soldier.getKillable()){
-                if (otherCol.gameObject.GetComponent<PlayerComponent>().isControlled){
+               // if (otherCol.gameObject.GetComponent<PlayerComponent>().isControlled)
+               {
                     soldier.hideSword();
                 } 
                 soldier.setAlive();

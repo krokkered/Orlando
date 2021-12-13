@@ -7,10 +7,10 @@ public class Craziness : MonoBehaviour
     public SinglePlayerComponent playerRef;
 
 
-    protected int CrazinessStage=0;
-
+    protected int CrazinessStage=-1;
+    bool CrazinessStarted= false;
     /*
-    
+    -0: cammina continuo
     -1 invertire su e giù + piccolo aumento velocità
     -2 invertire dx e sx + piccolo aumento velocità
     -3  aumento velocità
@@ -21,7 +21,6 @@ public class Craziness : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerRef.goCrazy();
         //playerRef.setMovement(new Vector2(1f,0f) );
     }
 
@@ -74,6 +73,7 @@ public class Craziness : MonoBehaviour
 
         }
 
+        if (CrazinessStarted)
         crazyMove();
      }
 
@@ -87,7 +87,9 @@ public class Craziness : MonoBehaviour
          CrazinessStage+=1;
          print("incremento la pazzia " + CrazinessStage);
          switch (CrazinessStage){
-
+            case 0:
+                StartCraziness();
+                break;
             case 1:
                 playerRef.increaseSpeed(0.5f);
                 break;
@@ -117,6 +119,13 @@ public class Craziness : MonoBehaviour
                 playerRef.setMovement(new Vector2(-axisx,-axisy) );
                 break;
          }
+
+     }
+
+     void StartCraziness(){
+
+        CrazinessStarted=true;
+        playerRef.goCrazy();
 
      }
 
