@@ -29,14 +29,16 @@ public class FindVisibleEnemies : MonoBehaviour
         
         foreach (GameObject enemy in enemies)
         {
-            if (cameraBox.OverlapPoint(enemy.transform.position) && enemy.GetComponent<StaticSoldier>().isAlive)
-                visibleEnemies.Add(enemy);
+            if (cameraBox.OverlapPoint(enemy.transform.position) )
+                if (enemy.GetComponent<StaticSoldier>() != null )
+                    if (enemy.GetComponent<StaticSoldier>().isAlive)
+                        visibleEnemies.Add(enemy);
         }
 
         foreach (GameObject en in visibleEnemies)
         {
-
-            if (!en.GetComponent<StaticSoldier>().getWarned())  // valido solo per i soldati fermi
+            if (en.GetComponent<StaticSoldier>() != null )
+                if (!en.GetComponent<StaticSoldier>().getWarned())  // valido solo per i soldati fermi
                 visibleUnwarnedEnemies.Add(en);
         }
     }

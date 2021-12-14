@@ -9,14 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: b658fa1551c11bdc4b678c32045680f2
   - enabled: 1
+    path: Assets/Scenes/IntroBosco1.unity
+    guid: 5be0c4d21a9cb561f85f46ba973357a1
+  - enabled: 1
     path: Assets/Scenes/Bosco1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Accampamento1.unity
     guid: fc7df4a8ef97b607685d5ef9c7dfa214
   - enabled: 1
+    path: Assets/Scenes/Accampamento2.unity
+    guid: 07f51ad240119bad28663fe7c64d4f89
+  - enabled: 1
+    path: Assets/Scenes/IntroBosco2.unity
+    guid: 56a35c11000f04bec9d3ca0a5347f1f6
+  - enabled: 1
     path: Assets/Scenes/Bosco2.unity
     guid: 68e2350d2e0a43e3e902859d8f057ed3
+  - enabled: 1
+    path: Assets/Scenes/IntroBosco3.unity
+    guid: 29ea6fb37ccfd32719c30b798c53ebb6
   - enabled: 1
     path: Assets/Scenes/Bosco3.unity
     guid: c7ebccd6fa4b4164e9a68eaa9cf83931

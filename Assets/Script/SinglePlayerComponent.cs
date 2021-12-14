@@ -11,8 +11,9 @@ public class SinglePlayerComponent : MonoBehaviour
     public Animator animator;
     public Camera cam;
     bool isCrazy = false;
+    bool isDead= false;
     public bool isBent{get; set;}= false;
-
+    
     Vector2 movement;
     // Update is called once per frame
 
@@ -23,6 +24,7 @@ public class SinglePlayerComponent : MonoBehaviour
 
     void Update()
     {
+        if (!isDead){
         if (!isCrazy)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
@@ -32,6 +34,7 @@ public class SinglePlayerComponent : MonoBehaviour
 
 
         animate();
+        }
 
     }
 
@@ -39,7 +42,8 @@ public class SinglePlayerComponent : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (!isBent)
+        if (!isBent  )
+        if (!isDead)
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
     }
@@ -74,5 +78,12 @@ public class SinglePlayerComponent : MonoBehaviour
      public void increaseSpeed(float newSpeed)
      {
         moveSpeed+=newSpeed;
+     }
+
+     public void setDead(){
+
+         isDead=true;
+        animator.SetFloat("Speed", 0);
+
      }
 }//endclass

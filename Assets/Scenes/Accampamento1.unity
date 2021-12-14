@@ -2134,6 +2134,94 @@ PrefabInstance:
       objectReference: {fileID: 4284890706483886472, guid: c634570a967c8457eb158c0bb28c745d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecb5517c034543473b4946cff74d11bf, type: 3}
+--- !u!1 &1460496915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460496917}
+  - component: {fileID: 1460496916}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1460496916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460496915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6f4c9afd304a20d99c6584adbb97ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1460496917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460496915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09703648, y: 3.5272458, z: -0.01239109}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1460978007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460978009}
+  - component: {fileID: 1460978008}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1460978008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460978007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27983032d7bc1d8988914c203133020e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalScore: 0
+  CurrentScore: 0
+--- !u!4 &1460978009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460978007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.493862, y: 3.973125, z: -0.72623765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1544297963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2601,6 +2689,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4603146096825068267, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: "176\nPoi se ne vien dove col capo giace\nappoggiato al barile il miser
+        Grillo:\navealo v\xF3to, e avea creduto in pace\ngodersi un sonno placido
+        e tranquillo.\nTronc\xF2gli il capo il Saracino audace:\nesce col sangue
+        il vin per uno spillo,\ndi che n\u2019ha in corpo pi\xFA d\u2019una bigoncia;\ne
+        di ber sogna, e Cloridan lo sconcia.\n\n177\nE presso a Grillo, un Greco
+        et un Tedesco\nspenge in dui colpi, Andropono e Conrado,\nche de la notte
+        avean goduto al fresco\ngran parte, or con la tazza, ora col dado:\nfelici,
+        se vegghiar sapeano a desco\nfin che de l\u2019Indo il sol passassi il guado.\nMa
+        non potria negli uomini il destino,\nse del futuro ognun fosse indovino.\n\n178\nCome
+        impasto leone in stalla piena,\nche lunga fame abbia smacrato e asciutto,\nuccide,
+        scanna, mangia, a strazio mena\nl\u2019infermo gregge in sua balia condutto;\ncos\xED
+        il crudel pagan nel sonno svena\nla nostra gente, e fa macel per tutto.\nLa
+        spada di Medoro anco non ebe;\nma si sdegna ferir l\u2019ignobil plebe.\n\n179\nVenuto
+        era ove il duca di Labretto\ncon una dama sua dormia abbracciato;\ne l\u2019un
+        con l\u2019altro si tenea s\xED stretto,\nche non saria tra lor l\u2019aere
+        entrato.\nMedoro ad ambi taglia il capo netto.\nOh felice morire! oh dolce
+        fato!\nche come erano i corpi, ho cos\xED fede\nch\u2019andar l\u2019alme
+        abbracciate alla lor sede.\n\n\n\n180\nMalindo uccise e Ardalico il fratello,\nche
+        del conte di Fiandra erano figli;\ne l\u2019uno e l\u2019altro cavallier
+        novello\nfatto avea Carlo, e aggiunto all\u2019arme i gigli\nperch\xE9 il
+        giorno amendui d\u2019ostil macello\ncon gli stocchi tornar vide vermigli:\ne
+        terre in Frisa avea promesso loro,\ne date avria; ma lo viet\xF2 Medoro.\n\n181\nGl\u2019insid\xEFosi
+        ferri eran vicini\nai padiglioni che tiraro in volta\nal padiglion di Carlo
+        i paladini,\nfacendo ognun la guardia la sua volta;\nquando da l\u2019empia
+        strage i Saracini\ntrasson le spade, e diero a tempo volta;\nch\u2019impossibil
+        lor par, tra s\xED gran torma,\nche non s\u2019abbia a trovar un che non
+        dorma."
+      objectReference: {fileID: 0}
     - target: {fileID: 6884816663117556684, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
       propertyPath: m_Text
       value: Uccidi i soldati, la luce potrebbe svegliarli
@@ -2702,6 +2820,18 @@ PrefabInstance:
         strage i Saracini\ntrasson le spade, e diero a tempo volta;\nch\u2019impossibil
         lor par, tra s\xED gran torma,\nche non s\u2019abbia a trovar un che non
         dorma."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1158.2601
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}

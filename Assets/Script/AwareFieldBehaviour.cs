@@ -19,6 +19,7 @@ public class AwareFieldBehaviour : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
     
         Debug.Log("sei stato sgamato!");
-        //SceneManager.LoadScene(LevelName);
+        GameManager gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager.GameLost();
     }
 }

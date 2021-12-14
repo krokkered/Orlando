@@ -3434,6 +3434,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4603146096825068267, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: "172\n Cosi disposti, rilessero in quel loco\nle successive guardie,
+        e se ne vanno.\nLascian fosse e steccati, e dopo poco\ntra\u2019 nostri son,
+        che senza cura stanno.\nIl campo dorme, e tutto \xE8 spento il fuoco,\nperch\xE9
+        dei Saracin poca tema hanno.\nTra l\u2019arme e\u2019 carriaggi stan roversi,\nnel
+        vin, nel sonno insino agli occhi immersi.\n\n173\nFermossi alquanto Cloridano,
+        e disse:\n\u2014 Non son mai da lasciar l\u2019occas\xEFoni.\nDi questo stuol
+        che \u2019l mio signor trafisse,\nnon debbo far, Medoro, occis\xEFoni?\nTu,
+        perch\xE9 sopra alcun non ci venisse,\ngli occhi e l\u2019orecchi in ogni
+        parte poni;\nch\u2019io m\u2019offerisco farti con la spada\ntra gli nimici
+        spaz\xEFosa strada. \u2014\n\n174\nCos\xED disse egli, e tosto il parlar
+        tenne,\net entr\xF2 dove il dotto Alfeo dormia,\nche l\u2019anno inanzi in
+        corte a Carlo venne,\nmedico e mago e pien d\u2019astrologia:\nma poco a
+        questa volta gli sovenne;\nanzi gli disse in tutto la bugia.\nPredetto egli
+        s\u2019avea, che d\u2019anni pieno\ndovea morire alla sua moglie in seno:\n\n175\net
+        or gli ha messo il cauto Saracino\nla punta de la spada ne la gola.\nQuattro
+        altri uccide appresso all\u2019indovino,\nche non han tempo a dire una parola:\nmenzion
+        dei nomi lor non fa Turpino,\ne \u2019l lungo andar le lor notizie invola:\ndopo
+        essi Palidon da Moncalieri,\nche sicuro dormia fra duo destrieri."
+      objectReference: {fileID: 0}
     - target: {fileID: 6884816663117556684, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
       propertyPath: m_Text
       value: 'Elimina le guardie!
@@ -3508,6 +3529,18 @@ PrefabInstance:
         altri uccide appresso all\u2019indovino,\nche non han tempo a dire una parola:\nmenzion
         dei nomi lor non fa Turpino,\ne \u2019l lungo andar le lor notizie invola:\ndopo
         essi Palidon da Moncalieri,\nche sicuro dormia fra duo destrieri."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -586.28784
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 132548123112486148, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}

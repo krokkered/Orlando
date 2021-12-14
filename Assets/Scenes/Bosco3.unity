@@ -1370,6 +1370,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 309ef1dbe48bad6c087ff695404c6bc1, type: 3}
+--- !u!1 &735466583
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 735466585}
+  - component: {fileID: 735466584}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &735466584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735466583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27983032d7bc1d8988914c203133020e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalScore: 0
+  CurrentScore: 0
+--- !u!4 &735466585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735466583}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 997.1912, y: 271.84048, z: -58.94205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &980764710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1503,6 +1548,7 @@ GameObject:
   - component: {fileID: 1048362802}
   - component: {fileID: 1048362801}
   - component: {fileID: 1048362800}
+  - component: {fileID: 1048362803}
   m_Layer: 0
   m_Name: RiverObstacle
   m_TagString: Untagged
@@ -1520,7 +1566,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1611,6 +1657,61 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1048362803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048362799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96698284fb119887be1c8e068e879b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1064120158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1064120160}
+  - component: {fileID: 1064120159}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1064120159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064120158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6f4c9afd304a20d99c6584adbb97ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1064120160
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064120158}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.933034, y: 1.4562488, z: -1.0061255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1070077364
 GameObject:
@@ -2656,6 +2757,55 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 387933902534329112, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921756549299770568, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660056108850269713, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: Sei Caduto nell'acqua!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660056108850269713, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4603146096825068267, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: "XIX,100\nLo strano corso che tenne il cavallo\ndel Saracin pel bosco
+        senza via,\nfece ch'Orlando and\xF2 duo giorni in fallo,\nn\xE9 lo trov\xF2,
+        n\xE9 pot\xE9 averne spia.\nGiunse ad un rivo che parea cristallo,\nne le
+        cui sponde un bel pratel fioria,\ndi nativo color vago e dipinto,\ne di molti
+        e belli arbori distinto.\n\n101\nIl merigge facea grato l'orezzo\nal duro
+        armento ed al pastore ignudo;\ns\xEC che n\xE9 Orlando sentia alcun ribrezzo,\nche
+        la corazza avea, l'elmo e lo scudo.\nQuivi egli entr\xF2 per riposarvi in
+        mezzo;\ne v'ebbe travaglioso albergo e crudo,\ne pi\xF9 che dir si possa
+        empio soggiorno,\nquell'infelice e sfortunato giorno.\n\n102\nVolgendosi
+        ivi intorno, vide scritti\nmolti arbuscelli in su l'ombrosa riva.\nTosto
+        che fermi v'ebbe gli occhi e fitti,\nfu certo esser di man de la sua diva.\nQuesto
+        era un di quei lochi gi\xE0 descritti,\nove sovente con Medor veniva\nda
+        casa del pastore indi vicina\nla bella donna del Catai regina.\n\n103\nAngelica
+        e Medor con cento nodi\nlegati insieme, e in cento lochi vede.\nQuante lettere
+        son, tanti son chiodi\ncoi quali Amore il cor gli punge e fiede.\nVa col
+        pensier cercando in mille modi\nnon creder quel ch'al suo dispetto crede:\nch'altra
+        Angelica sia, creder si sforza,\nch'abbia scritto il suo nome in quella scorza.\n\n104\nPoi
+        dice: \xABConosco io pur queste note:\ndi tal'io n'ho tante vedute e lette.\nFinger
+        questo Medoro ella si puote:\nforse ch'a me questo cognome mette.\xBB\nCon
+        tali opinion dal ver remote\nusando fraude a s\xE9 medesmo, stette\nne la
+        speranza il malcontento Orlando,\nche si seppe a se stesso ir procacciando.\n\n105\nMa
+        sempre pi\xF9 raccende e pi\xF9 rinuova,\nquanto spenger pi\xF9 cerca, il
+        rio sospetto:\ncome l'incauto augel che si ritrova\nin ragna o in visco aver
+        dato di petto,\nquanto pi\xF9 batte l'ale e pi\xF9 si prova\ndi disbrigar,
+        pi\xF9 vi si lega stretto.\nOrlando viene ove s'incurva il monte\na guisa
+        d'arco in su la chiara fonte."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6144155739689103046, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Bosco3
+      objectReference: {fileID: 0}
     - target: {fileID: 6884816663117556684, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
       propertyPath: m_Text
       value: 'Ispeziona le scritte nel bosco!
@@ -2768,6 +2918,18 @@ PrefabInstance:
         ogni volta in mezzo il petto afflitto\nstringersi il cor sentia con fredda
         mano.\nRimase al fin con gli occhi e con la mente\nfissi nel sasso, al sasso
         indifferente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1106.2601
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}

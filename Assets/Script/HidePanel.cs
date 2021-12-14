@@ -9,7 +9,7 @@ public class HidePanel : MonoBehaviour
     RectTransform rect;
     public GameObject buttonToHide;
    // public float transitionTime=5; // it doesn't work , should be fixed
-    bool isHidden=false;
+    public bool isHidden=false;
     Vector2 InitialPosition;
     public float duration=5f;
 
@@ -18,6 +18,9 @@ public class HidePanel : MonoBehaviour
         rect=gameObject.GetComponent<RectTransform>();
         InitialPosition=rect.anchoredPosition;
 
+        if (isHidden){
+            StartCoroutine("Move", newPos);
+        }
 
     }
 

@@ -28,7 +28,7 @@ public class KeepEnemyAwake : MonoBehaviour
 
         if (other.gameObject.GetComponent<StaticSoldier>()){
             visibleEnemies.Add(other.gameObject);
-            print("lampada n "+ gameObject.transform.parent.gameObject.name+" soldato n "+ other.gameObject.name);
+            //print("lampada n "+ gameObject.transform.parent.gameObject.name+" soldato n "+ other.gameObject.name);
             setEnemyWarned(other.gameObject);
         }
     }

@@ -26,7 +26,7 @@ private GameObject UnawareField;
     AwareField=gameObject.transform.Find("AwareField").gameObject;
     UnawareField=gameObject.transform.Find("UnawareField").gameObject;
 
-    soldierState=State.Killable;
+    soldierState=State.Alive;
     }
 
     // Update is called once per frame
@@ -38,7 +38,7 @@ private GameObject UnawareField;
             Move();
             animate();
 
-            placeFields(AwareField);
+            placeFields(AwareField);  // to look for the player in the fiel osition 
             placeFields(UnawareField);
         }
 
@@ -105,5 +105,15 @@ private GameObject UnawareField;
         }
         //TODO add cases when movement.x ==0 and y positive, for horizontal and vertical positions
         field.transform.eulerAngles=new Vector3(0,0,rotationAmount);
+    }
+
+
+    public override void killed(){
+        base.killed();
+        print("ucciso soldato camminante");
+        //UnawareField.SetActive(false);
+        AwareField.SetActive(false);
+
+        Destroy(AwareField);
     }
 }

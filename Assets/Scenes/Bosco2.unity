@@ -780,6 +780,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &464444936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464444938}
+  - component: {fileID: 464444937}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &464444937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464444936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27983032d7bc1d8988914c203133020e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TotalScore: 0
+  CurrentScore: 0
+--- !u!4 &464444938
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464444936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 997.1912, y: 271.84048, z: -58.94205}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &502363023
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,6 +1226,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4603146096825068267, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_Text
+      value: "XIX,16 \nSeguon gli Scotti ove la guida loro\nper l\u2019alta selva
+        alto disdegno mena,\npoi che lasciato ha l\u2019uno e l\u2019altro Moro,\nl\u2019un
+        morto in tutto, e l\u2019altro vivo a pena.\nGiacque gran pezzo il giovine
+        Medoro,\nspicciando il sangue da s\xED larga vena,\nche di sua vita al fin
+        saria venuto,\nse non sopravenia chi gli di\xE8 aiuto.\n\n17\nGli sopravenne
+        a caso una donzella,\navolta in pastorale et umil veste,\nma di real presenzia
+        e in viso bella,\nd\u2019alte maniere e accortamente oneste.\nTanto \xE8
+        ch\u2019io non ne dissi pi\xFA novella,\nch\u2019a pena riconoscer la dovreste:\nquesta,
+        se non sapete, Angelica era,\ndel gran Can del Catai la figlia altiera.\n\n18\nPoi
+        che \u2019l suo annello Angelica riebbe,\ndi che Brunel l\u2019avea tenuta
+        priva,\nin tanto fasto, in tanto orgoglio crebbe,\nch\u2019esser parea di
+        tutto \u2019l mondo schiva.\nSe ne va sola, e non si degnerebbe\ncompagno
+        aver qual pi\xFA famoso viva:\nsi sdegna a rimembrar che gi\xE1 suo amante\nabbia
+        Orlando nomato, o Sacripante.\n\n19\nE sopra ogn\u2019altro error via pi\xFA
+        pentita\nera del ben che gi\xE1 a Rinaldo volse,\ntroppo parendole essersi
+        avilita,\nch\u2019a riguardar s\xED basso gli occhi volse.\nTant\u2019arroganzia
+        avendo Amor sentita,\npi\xFA lungamente comportar non volse:\ndove giacea
+        Medor, si pose al varco,\ne l\u2019aspett\xF2, posto lo strale all\u2019arco.\n\n\n\n20\nQuando
+        Angelica vide il giovinetto\nlanguir ferito, assai vicino a morte,\nche del
+        suo re che giacea senza tetto,\npi\xFA che del proprio mal si dolea forte;\ninsolita
+        pietade in mezzo al petto\nsi senti entrar per disusate porte,\nche le fe\u2019
+        il duro cor tenero e molle,\ne pi\xFA, quando il suo caso egli narrolle,\n\n21\nE
+        rivocando alla memoria l\u2019arte\nch\u2019in India impar\xF2 gi\xE1 di
+        chirurgia\n(che par che questo studio in quella parte\nnobile e degno e di
+        gran laude sia;\ne senza molto rivoltar di carte,\nche \u2019l patre ai figli
+        ereditario il dia),\nsi dispose operar con succo d\u2019erbe,\nch\u2019a
+        pi\xFA matura vita lo riserbe.\n\n22\nE ricordossi che passando avea\nveduta
+        un\u2019erba in una piaggia amena;\nfosse dittamo, o fosse panacea,\no non
+        so qual, di tal effetto piena,\nche stagna il sangue, e de la piaga rea\nleva
+        ogni spasmo e perigliosa pena.\nLa trov\xF2 non lontana, e quella colta,\ndove
+        lasciato avea Medor, di\xE8 volta."
+      objectReference: {fileID: 0}
     - target: {fileID: 6884816663117556684, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
       propertyPath: m_Text
       value: 'Trova e raccogli le erbe mediche!
@@ -1272,6 +1351,18 @@ PrefabInstance:
         so qual, di tal effetto piena,\nche stagna il sangue, e de la piaga rea\nleva
         ogni spasmo e perigliosa pena.\nLa trov\xF2 non lontana, e quella colta,\ndove
         lasciato avea Medor, di\xE8 volta.\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9167122264483645061, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1418.9857
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53d42d24e3d7e303a9bf2aabfd5a5bff, type: 3}

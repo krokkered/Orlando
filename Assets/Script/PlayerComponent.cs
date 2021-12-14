@@ -10,6 +10,7 @@ public class PlayerComponent : MonoBehaviour
     Rigidbody2D rb;
     public Animator animator;
     public bool isControlled = false;
+    bool isDead = false;
     public Camera cam;
     public GameObject otherPlayer;
     FindVisibleEnemies findenemies;
@@ -33,6 +34,7 @@ public class PlayerComponent : MonoBehaviour
     void Update()
     {
 
+
         if (Input.GetKeyUp("x"))
         {
             ToggleControlled();
@@ -40,27 +42,31 @@ public class PlayerComponent : MonoBehaviour
 
         }
 
-        if (isControlled)
+        if (!isDead)
         {
+            if (isControlled)
+            {
 
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
+                movement.x = Input.GetAxisRaw("Horizontal");
+                movement.y = Input.GetAxisRaw("Vertical");
 
+            }
+
+            animate();
         }
-
-        animate();
-
     }
     void FixedUpdate()
     {
-
-        if (isControlled)
-            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-
-        else
+        if (!isDead)
         {
-            ab.autonomousMove();
+            if (isControlled)
+                rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
+            else
+            {
+                ab.autonomousMove();
+
+            }
         }
     }
 
@@ -111,7 +117,7 @@ public class PlayerComponent : MonoBehaviour
 
 
 
-  
+
 
 
 
@@ -132,5 +138,12 @@ public class PlayerComponent : MonoBehaviour
     {
         movement.x = x;
         movement.y = y;
+    }
+
+    public void setDead()
+    {
+        isDead = true;
+        animator.SetFloat("Speed", 0);
+        ab.DisableNavAgent();
     }
 }//endclass

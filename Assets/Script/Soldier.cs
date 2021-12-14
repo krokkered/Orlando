@@ -21,6 +21,7 @@ public class Soldier : MonoBehaviour
 
     protected GameObject childSword;
     protected GameObject childBlood;
+    protected GameManager gameManager;
     ScoreManager scoreManager;
     // Start is called before the first frame update
     protected void Start()
@@ -28,7 +29,12 @@ public class Soldier : MonoBehaviour
         childSword = gameObject.transform.Find("sword").gameObject;
         childBlood = gameObject.transform.Find("macchiadisangue").gameObject;
 
-        scoreManager=GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+
+        if (GameObject.Find("GameManager") != null)
+        {
+            gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        }
 
     }
 
@@ -47,7 +53,9 @@ public class Soldier : MonoBehaviour
             else if (soldierState == State.WarnedClose)
             {
                 print("Oh no, hai svegliato il soldato!");
-                //partita persa, si riparte dal cicpoint
+                //partita persa, si riparte dal checkpoint
+                gameManager.GameLost();
+
             }
         }
 
@@ -56,11 +64,12 @@ public class Soldier : MonoBehaviour
 
 
 
-    public void killed()
+    public virtual void killed()
     {
+        print("classe soldier");
         if (soldierState == State.Killable)
         {
-            isAlive=false;
+            isAlive = false;
             soldierState = State.Dead;
 
             SpriteRenderer soldatoSprite = GetComponent<SpriteRenderer>();

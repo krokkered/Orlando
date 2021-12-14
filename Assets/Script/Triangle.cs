@@ -48,8 +48,8 @@ public class Triangle : MonoBehaviour
 
     void Start() // OnDrawGizmos to see it in the editor, Start to see it  only during the game
     {
-        gameObject.AddComponent<MeshFilter>();
-        gameObject.AddComponent<MeshRenderer>();
+
+
         Mesh mesh = GetComponent<MeshFilter>().mesh;
 
         mesh.Clear();

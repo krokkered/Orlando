@@ -13,8 +13,11 @@ public class GoToNextLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    scoreManager=GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
 
+        if (GameObject.Find("ScoreManager") != null)
+        {
+            scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        }
     }
 
     // Update is called once per frame
@@ -34,10 +37,16 @@ public class GoToNextLevel : MonoBehaviour
         SceneManager.LoadScene(LevelName);
     }
 
+    public void GoToLevel(string LevelName)
+    {
+        SceneManager.LoadScene(LevelName);
+    }
+    
     public void GoToLevelOnCondition(bool condition)
     {
         if (condition)
             GoToLevel();
     }
+
 
 }
