@@ -7,7 +7,7 @@ public class Craziness : MonoBehaviour
     public SinglePlayerComponent playerRef;
 
 
-    protected int CrazinessStage=-1;
+    protected int CrazinessStage=-3;
     bool CrazinessStarted= false;
     /*
     -0: cammina continuo
@@ -92,6 +92,7 @@ public class Craziness : MonoBehaviour
                 break;
             case 1:
                 playerRef.increaseSpeed(0.5f);
+
                 break;
             case 2:
                 playerRef.increaseSpeed(0.5f);
@@ -111,6 +112,7 @@ public class Craziness : MonoBehaviour
                 break;
             case 1:
                 playerRef.setMovement(new Vector2(axisx,-axisy) );
+                EnableCollisionsWithTrees();
                 break;
             case 2:
                 playerRef.setMovement(new Vector2(-axisx,-axisy) );
@@ -126,7 +128,11 @@ public class Craziness : MonoBehaviour
 
         CrazinessStarted=true;
         playerRef.goCrazy();
-
      }
 
+    void EnableCollisionsWithTrees(){
+        GameManager gm=GameObject.Find("GameManager").GetComponent<GameManager>();
+        gm.removeObjectsWithTag("Obstacle");
+        gm.enableCollisionOnTag("Tree");
+    }
 }

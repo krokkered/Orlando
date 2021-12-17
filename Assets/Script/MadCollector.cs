@@ -10,8 +10,8 @@ public class MadCollector : Collector
     }
 
      public override void  addItem(){
-        CollectedItems+=1;
-        print("incremento la pazzia");
+        base.addItem();
+       print("incremento la pazzia");
         craziness.IncreaseCraziness();
     }
 }

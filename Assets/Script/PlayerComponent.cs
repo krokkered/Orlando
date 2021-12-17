@@ -146,4 +146,18 @@ public class PlayerComponent : MonoBehaviour
         animator.SetFloat("Speed", 0);
         ab.DisableNavAgent();
     }
+
+
+
+    public void disableMovement(){
+
+        isDead=true;
+    }
+
+
+
+    public void enaableMovement(){
+
+        isDead=false;
+    }
 }//endclass

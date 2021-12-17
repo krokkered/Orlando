@@ -86,4 +86,14 @@ public class SinglePlayerComponent : MonoBehaviour
         animator.SetFloat("Speed", 0);
 
      }
+
+    public void disableMovement(){
+
+        isDead=true;
+    }
+
+    public void enableMovement(){
+
+        isDead=false;
+    }
 }//endclass

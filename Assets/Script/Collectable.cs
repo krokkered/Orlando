@@ -9,6 +9,7 @@ public class Collectable : MonoBehaviour
     public Transform PlayerPosition;
     SpriteRenderer spriteRenderer;
     public Collector collector;
+    public GameObject ObjectToShowAfterDestroy;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,8 @@ public class Collectable : MonoBehaviour
     void pick()
     {
         collector.addItem();
+        if (ObjectToShowAfterDestroy !=null)
+            ObjectToShowAfterDestroy.SetActive(true);
         Destroy(gameObject);
     }
 

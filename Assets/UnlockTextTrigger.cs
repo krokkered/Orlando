@@ -8,6 +8,7 @@ public class UnlockTextTrigger : MonoBehaviour
     public RectTransform BlurImageRef;
     public ScrollRect scrollRect;
     public Text textRef;
+    bool unlocked=false;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,8 +26,10 @@ public class UnlockTextTrigger : MonoBehaviour
     if (rbody!= null  && rbody.tag  == "Player"){
     
             //scrollRect.verticalNormalizedPosition = 0.126f;
+            if (!unlocked){
+                unlocked=true;
             StartCoroutine(LerpPositionAndFadeText(0.126f,2));
-
+            }
     }
     }
 

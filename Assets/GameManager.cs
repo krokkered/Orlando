@@ -30,7 +30,51 @@ public class GameManager : MonoBehaviour
                 
         }
 
-        print("caduta del gamelost");
         GameObject.Find("HUD").transform.Find("Canvas").transform.Find("LoseScreen").gameObject.SetActive(true);
+    }
+
+
+    public void disablePlayers(){
+
+         foreach (var player in players)
+        {
+            if (player.GetComponent<PlayerComponent>() != null)
+                player.GetComponent<PlayerComponent>().disableMovement(); // makes players unable to move
+            if (player.GetComponent<SinglePlayerComponent>() != null)
+                player.GetComponent<SinglePlayerComponent>().disableMovement(); // makes players unable to move
+
+                
+        }       
+    }
+
+
+    public void enablePlayers(){
+
+         foreach (var player in players)
+        {
+            if (player.GetComponent<PlayerComponent>() != null)
+                player.GetComponent<PlayerComponent>().enaableMovement(); // makes players unable to move
+            if (player.GetComponent<SinglePlayerComponent>() != null)
+                player.GetComponent<SinglePlayerComponent>().enableMovement(); // makes players unable to move
+
+                
+        }       
+    }
+
+    public void removeObjectsWithTag(string tag){
+
+              GameObject[]  objects = GameObject.FindGameObjectsWithTag(tag);
+         foreach (var obj in objects){
+             Destroy(obj);
+         }
+
+    }
+
+    public void enableCollisionOnTag(string tag){
+              GameObject[]  objects = GameObject.FindGameObjectsWithTag(tag);
+         foreach (var obj in objects){
+                obj.GetComponent<Collider2D>().enabled = true;        
+                 }
+
     }
 }

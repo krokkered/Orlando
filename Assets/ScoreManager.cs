@@ -10,10 +10,11 @@ public class ScoreManager : MonoBehaviour
     [SerializeField]
      private int CurrentScore=0;
 
+    public string ObjectsToCount;
     // Start is called before the first frame update
     void Start()
     {
-        TotalScore=GameObject.FindGameObjectsWithTag("Enemy").Length;
+        TotalScore=GameObject.FindGameObjectsWithTag(ObjectsToCount).Length;
     }
 
     // Update is called once per frame

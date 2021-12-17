@@ -8,6 +8,9 @@ TagManager:
   - Light
   - WayPoint
   - LoseScreen
+  - Collectable
+  - Obstacle
+  - Tree
   layers:
   - Default
   - TransparentFX

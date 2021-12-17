@@ -140,13 +140,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2768213361241851333}
-  m_LocalRotation: {x: 0.0076361443, y: -0.006980813, z: 0.7380281, w: 0.67469066}
-  m_LocalPosition: {x: -0.048000097, y: 0.39999998, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.69331425, w: 0.7206355}
+  m_LocalPosition: {x: -0.048000336, y: 0.4000001, z: 0}
   m_LocalScale: {x: 2.4626617, y: 3.9949245, z: 2.7928}
   m_Children: []
   m_Father: {fileID: 5106789797049909992}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 1.181, y: 0.106, z: 95.135}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -87.786}
 --- !u!212 &8373045049159965426
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -187,7 +187,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: 21300000, guid: daf6597710860012e9d1e6fc0a690186, type: 3}
   m_Color: {r: 1, g: 0.9137255, b: 0.2627451, a: 0.23921569}
   m_FlipX: 0
   m_FlipY: 0
@@ -211,8 +211,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000000059604645, y: 0}
-  m_Size: {x: 1.0000002, y: 1.0000001}
+  m_Offset: {x: 0, y: 0.01268769}
+  m_Size: {x: 1.0000001, y: 0.97462565}
   m_Direction: 0
 --- !u!114 &1767764154845273077
 MonoBehaviour:
@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88cf3ca485779fd46bad6c9363eb4251, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  visibleEnemies: []
 --- !u!1 &4571034676200565787
 GameObject:
   m_ObjectHideFlags: 0

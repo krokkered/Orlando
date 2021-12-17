@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAlive: 1
+  soldierState: 0
   animator: {fileID: 4298931240681392052}
   movement: {x: 0, y: 0}
   StartingPoint: {fileID: 0}
