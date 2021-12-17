@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OutroBosco3.unity
     guid: 46d98a8f82b73e558b68eba837be2438
+  - enabled: 1
+    path: Assets/Scenes/OutroAccampamento2.unity
+    guid: a09d66f63a279f82699d3bbe9491a826
   m_configObjects: {}

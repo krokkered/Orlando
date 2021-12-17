@@ -198,3 +198,4 @@ MonoBehaviour:
   childSign: {fileID: 1413879781697115462}
   PlayerPosition: {fileID: 0}
   collector: {fileID: 0}
+  ObjectToShowAfterDestroy: {fileID: 0}
